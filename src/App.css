@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 25px 30px;
+  background-color: #333;
+  outline: none;
+  display: flex;
+}
+
+.slide {
+  flex: 1;
+}
+
+.slide-0 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-0 img {
+  width: 300px;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+}
