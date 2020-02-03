@@ -4,13 +4,8 @@
 
 body {
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: rgba(255, 255, 255, 0.8);
-}
-
-h1 {
-  margin: 0;
-  font-size: 3rem;
 }
 
 .container {
@@ -27,10 +22,18 @@ h1 {
   flex: 1;
 }
 
-.slide-0 {
-  text-align: center;
+.slide-column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.slide-row {
+  display: flex;
+}
+
+.slide-0 {
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -38,6 +41,38 @@ h1 {
 .slide-0 img {
   width: 300px;
   margin-top: 25px;
+}
+
+.slide-2 div {
+  margin: auto;
+}
+
+.slide-7 {
+  font-size: 2rem;
+}
+
+.slide-7 ul {
+  margin: auto 0;
+}
+
+.slide-8 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #448aff;
+}
+
+.code-preview {
+  flex: 1;
+}
+
+.code-editor-container {
+  overflow: auto;
+}
+
+.code-editor {
+  flex: 1;
+  font-size: 1.5rem;
+  overflow: auto;
 }
 
 .logo {

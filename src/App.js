@@ -1,24 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Router, Switch, Route, Redirect } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
-import Slide0 from "./slides/0";
-import Slide1 from "./slides/1";
+import slides from "./slides";
 
 import { ReactComponent as Logo } from "./assets/mobills.svg";
 import "./App.css";
 
 const history = createBrowserHistory();
 
-const slides = [
-  { path: "/0", component: Slide0 },
-  { path: "/1", component: Slide1 }
-];
-
 function App() {
-  const handleKeyDown = event => {
-    const current = +window.location.pathname.substr(1);
+  const containerRef = useRef();
 
+  const handleKeyDown = event => {
+    if (containerRef.current !== document.activeElement) return;
+
+    const current = +window.location.pathname.substr(1);
     if (event.key === "ArrowRight") {
       history.push(slides[current + 1]?.path);
     } else if (event.key === "ArrowLeft") {
@@ -27,7 +24,12 @@ function App() {
   };
 
   return (
-    <div className="container" tabIndex="0" onKeyDown={handleKeyDown}>
+    <div
+      className="container"
+      tabIndex="0"
+      ref={containerRef}
+      onKeyDown={handleKeyDown}
+    >
       <Router history={history}>
         <Switch>
           {slides.map(slide => (
