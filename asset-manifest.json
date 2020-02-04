@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/styled-components-talk/static/css/main.b34475ec.chunk.css",
+    "main.js": "/styled-components-talk/static/js/main.903754e3.chunk.js",
+    "main.js.map": "/styled-components-talk/static/js/main.903754e3.chunk.js.map",
+    "runtime-main.js": "/styled-components-talk/static/js/runtime-main.6fd515fc.js",
+    "runtime-main.js.map": "/styled-components-talk/static/js/runtime-main.6fd515fc.js.map",
+    "static/js/2.280028ab.chunk.js": "/styled-components-talk/static/js/2.280028ab.chunk.js",
+    "static/js/2.280028ab.chunk.js.map": "/styled-components-talk/static/js/2.280028ab.chunk.js.map",
+    "index.html": "/styled-components-talk/index.html",
+    "precache-manifest.3802dd4c35567de69c61565d4a93d4e6.js": "/styled-components-talk/precache-manifest.3802dd4c35567de69c61565d4a93d4e6.js",
+    "service-worker.js": "/styled-components-talk/service-worker.js",
+    "static/css/main.b34475ec.chunk.css.map": "/styled-components-talk/static/css/main.b34475ec.chunk.css.map",
+    "static/js/2.280028ab.chunk.js.LICENSE": "/styled-components-talk/static/js/2.280028ab.chunk.js.LICENSE",
+    "static/media/cool-outline.f8c83869.svg": "/styled-components-talk/static/media/cool-outline.f8c83869.svg",
+    "static/media/mobills.bdfe3560.svg": "/styled-components-talk/static/media/mobills.bdfe3560.svg",
+    "static/media/styled.png": "/styled-components-talk/static/media/styled.6d94f33c.png",
+    "static/media/tagged-template-literals.png": "/styled-components-talk/static/media/tagged-template-literals.153d236c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fd515fc.js",
+    "static/js/2.280028ab.chunk.js",
+    "static/css/main.b34475ec.chunk.css",
+    "static/js/main.903754e3.chunk.js"
+  ]
+}
