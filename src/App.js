@@ -1,13 +1,13 @@
 import React, { useRef } from "react";
 import { Router, Switch, Route, Redirect } from "react-router-dom";
-import { createBrowserHistory } from "history";
+import { createHashHistory } from "history";
 
 import slides from "./slides";
 
 import { ReactComponent as Logo } from "./assets/mobills.svg";
 import "./App.css";
 
-const history = createBrowserHistory();
+const history = createHashHistory();
 
 function App() {
   const containerRef = useRef();
@@ -15,7 +15,7 @@ function App() {
   const handleKeyDown = event => {
     if (containerRef.current !== document.activeElement) return;
 
-    const current = +window.location.pathname.substr(1);
+    const current = +window.location.hash.substr(-1);
     if (event.key === "ArrowRight") {
       history.push(slides[current + 1]?.path);
     } else if (event.key === "ArrowLeft") {
