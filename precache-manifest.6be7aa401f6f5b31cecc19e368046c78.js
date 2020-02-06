@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97e8e8a6141cb1c4e894f31df8c2ca4a",
+    "revision": "4d0c7dd8bb4ca76d9fd982303013c1c1",
     "url": "/styled-components-talk/index.html"
   },
   {
-    "revision": "63ff93b6dff9e6e610a5",
+    "revision": "4466261bbe608f0847f3",
     "url": "/styled-components-talk/static/css/main.b34475ec.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/styled-components-talk/static/js/2.280028ab.chunk.js.LICENSE"
   },
   {
-    "revision": "63ff93b6dff9e6e610a5",
-    "url": "/styled-components-talk/static/js/main.f5b5040e.chunk.js"
+    "revision": "4466261bbe608f0847f3",
+    "url": "/styled-components-talk/static/js/main.4b07caa1.chunk.js"
   },
   {
     "revision": "a0367537addd02faaee8",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/styled-components-talk/static/media/styled.6d94f33c.png"
   },
   {
-    "revision": "153d236c83f317a20438a4dd178d69f1",
-    "url": "/styled-components-talk/static/media/tagged-template-literals.153d236c.png"
+    "revision": "6ba8f074174b3fe0d2608d2e73335cff",
+    "url": "/styled-components-talk/static/media/tagged-template-literals.6ba8f074.png"
   }
 ]);
