@@ -27,7 +27,7 @@ const CustomButton = styled(Button).attrs({
 
 render(
   <PreviewContainer>
-    <Header>Acesso as props</Header>
+    <Header>Acessando props</Header>
     <PreviewContent>
       <Button>Normal</Button>
       <Button primary>Primary</Button>

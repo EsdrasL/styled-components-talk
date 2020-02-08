@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { LiveProvider, LiveEditor, LivePreview } from "react-live";
 
 import Header from "../components/Header";
@@ -30,6 +30,10 @@ const code = `const Paragraph = styled.p\`
   }
 \`;
 
+const Link = styled.a\`
+  font-size: 1.25rem;
+\`;
+
 render(
   <PreviewContainer>
     <Header>Não apenas CSS</Header>
@@ -39,12 +43,12 @@ render(
     </Paragraph>
     <Paragraph>
       A sintaxe suportada é a do preprocessador usado, o 
-      <a
+      <Link
         href="https://github.com/thysultan/stylis.js"
         target="_blank"
       >
         stylis
-      </a>.
+      </Link>.
     </Paragraph>
   </PreviewContainer>
 );`;
@@ -57,7 +61,8 @@ const Slide5 = () => {
         scope={{
           styled,
           Header,
-          PreviewContainer
+          PreviewContainer,
+          css
         }}
         noInline
       >

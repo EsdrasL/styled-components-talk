@@ -12,7 +12,7 @@ const slides = [
   { path: "/0", name: "Apresentação", component: Slide0 },
   { path: "/1", name: "O que é?", component: Slide1 },
   { path: "/2", name: "Tagged Template Literals", component: Slide2 },
-  { path: "/3", name: "Acesso as props", component: Slide3 },
+  { path: "/3", name: "Acessando props", component: Slide3 },
   { path: "/4", name: "Extendendo componentes", component: Slide4 },
   { path: "/5", name: "Não apenas CSS", component: Slide5 },
   { path: "/6", name: "Temas?", component: Slide6 },
