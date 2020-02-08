@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0c7dd8bb4ca76d9fd982303013c1c1",
+    "revision": "3e8d5a02522c173ab42955f9a76bcb89",
     "url": "/styled-components-talk/index.html"
   },
   {
-    "revision": "4466261bbe608f0847f3",
+    "revision": "3c2132e9a79a7f8d12d1",
     "url": "/styled-components-talk/static/css/main.b34475ec.chunk.css"
   },
   {
-    "revision": "12850085f54d71504f6e",
-    "url": "/styled-components-talk/static/js/2.280028ab.chunk.js"
+    "revision": "78e8ffcd8d162c09185b",
+    "url": "/styled-components-talk/static/js/2.20cbfe41.chunk.js"
   },
   {
     "revision": "66f1945c2870f00beda8a179832bf292",
-    "url": "/styled-components-talk/static/js/2.280028ab.chunk.js.LICENSE"
+    "url": "/styled-components-talk/static/js/2.20cbfe41.chunk.js.LICENSE"
   },
   {
-    "revision": "4466261bbe608f0847f3",
-    "url": "/styled-components-talk/static/js/main.4b07caa1.chunk.js"
+    "revision": "3c2132e9a79a7f8d12d1",
+    "url": "/styled-components-talk/static/js/main.343fea73.chunk.js"
   },
   {
     "revision": "a0367537addd02faaee8",
